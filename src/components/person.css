@@ -1,0 +1,48 @@
+h2{
+    margin-top: 0;
+    text-align: center;
+    background-color: green;
+    padding: 1rem;
+}
+  .person-con{
+    border-bottom: 1px solid black;
+    background-color: #0093AF;
+    margin: 0.5rem;
+  }
+  .person {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+  
+
+  .person-info div {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+
+    padding: .5rem;
+ 
+  }
+  .person-title {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: .5rem;
+  }
+
+
+img{
+    height: 60%;
+    border-radius: 5rem;
+    align-self: center;
+}
+button{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    background-color: #007FFF;
+    border-radius: .4rem;
+    border: white;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+}
